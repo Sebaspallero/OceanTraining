@@ -397,7 +397,7 @@
         @media (max-width: 662px) {
           #bodyPlanes #planes #contenedorPlanesCards .planesCards {
             width: 100%;
-            height: 550px;
+            height: 650px;
             margin: 10px; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan1 {
         background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan1.jpeg");
@@ -422,8 +422,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan1:hover #contenidoOcultoPlan1, #bodyPlanes #planes #contenedorPlanesCards #plan1:active #contenidoOcultoPlan1 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan1:hover #contenidoOcultoPlan1 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan1.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -454,8 +454,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan2:hover #contenidoOcultoPlan2, #bodyPlanes #planes #contenedorPlanesCards #plan2:active #contenidoOcultoPlan2 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan2:hover #contenidoOcultoPlan2 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan2.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -487,8 +487,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan3:hover #contenidoOcultoPlan3, #bodyPlanes #planes #contenedorPlanesCards #plan3:active #contenidoOcultoPlan3 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan3:hover #contenidoOcultoPlan3 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan3.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -520,8 +520,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan4:hover #contenidoOcultoPlan4, #bodyPlanes #planes #contenedorPlanesCards #plan4:active #contenidoOcultoPlan4 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan4:hover #contenidoOcultoPlan4 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan4.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -553,8 +553,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan5:hover #contenidoOcultoPlan5, #bodyPlanes #planes #contenedorPlanesCards #plan5:active #contenidoOcultoPlan5 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan5:hover #contenidoOcultoPlan5 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan5.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -590,8 +590,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan6:hover #contenidoOcultoPlan6, #bodyPlanes #planes #contenedorPlanesCards #plan6:active #contenidoOcultoPlan6 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan6:hover #contenidoOcultoPlan6 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan6.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -601,7 +601,7 @@
           -webkit-animation: fadeIn 1s;
           animation: fadeIn 1s; }
           @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan6:hover #contenidoOcultoPlan6, #bodyPlanes #planes #contenedorPlanesCards #plan6:active #contenidoOcultoPlan6 {
+            #bodyPlanes #planes #contenedorPlanesCards #plan6:hover #contenidoOcultoPlan6 {
               background-position-x: left; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan7 {
         background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan7.jpg");
@@ -630,8 +630,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan7:hover #contenidoOcultoPlan7, #bodyPlanes #planes #contenedorPlanesCards #plan7:active #contenidoOcultoPlan7 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan7:hover #contenidoOcultoPlan7 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan7.jpg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -641,7 +641,7 @@
           -webkit-animation: fadeIn 1s;
           animation: fadeIn 1s; }
           @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan7:hover #contenidoOcultoPlan7, #bodyPlanes #planes #contenedorPlanesCards #plan7:active #contenidoOcultoPlan7 {
+            #bodyPlanes #planes #contenedorPlanesCards #plan7:hover #contenidoOcultoPlan7 {
               background-position-x: left; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan8 {
         background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan8.jpeg");
@@ -667,8 +667,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan8:hover #contenidoOcultoPlan8, #bodyPlanes #planes #contenedorPlanesCards #plan8:active #contenidoOcultoPlan8 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan8:hover #contenidoOcultoPlan8 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan8.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
@@ -701,8 +701,8 @@
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 {
               width: 100%;
-              height: 550px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan9:hover #contenidoOcultoPlan9, #bodyPlanes #planes #contenedorPlanesCards #plan9:active #contenidoOcultoPlan9 {
+              height: 650px; } }
+        #bodyPlanes #planes #contenedorPlanesCards #plan9:hover #contenidoOcultoPlan9 {
           background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan9.jpeg");
           box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
           background-repeat: no-repeat;
