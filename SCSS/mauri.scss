@@ -244,8 +244,11 @@ $azulMarino: #0C6E9A;
                 position: relative;
                 transform-style: preserve-3d;
                 transition: transform 1s;
+                -webkit-transform-style: preserve-3d;
+                -webkit-transition: transform 1s;
 
                 .cardFront, .cardBack{
+                    -webkit-backface-visibility: hidden;
                     backface-visibility: hidden;
                 }
     
@@ -298,7 +301,7 @@ $azulMarino: #0C6E9A;
                 }
 
                 .cardBack{
-                    width: 100%;
+                  width: 100%;
                     height: 100%;
                     background: #FFFFFF;
                     box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
@@ -308,6 +311,7 @@ $azulMarino: #0C6E9A;
                     flex-direction: column;
                     position: absolute;
                     transform: rotateY(180deg);
+                    -webkit-transform: rotateY(180deg);
 
                     i{
                         width: 30px;
@@ -418,9 +422,11 @@ $azulMarino: #0C6E9A;
             .planesCards{
                 width: 500px;
                 height: 600px;
+                -webkit-filter: drop-shadow(0px 30px 40px rgba(212, 217, 232, 0.7));
                 filter: drop-shadow(0px 30px 40px rgba(212, 217, 232, 0.7));
                 border-radius: 8px;
                 margin: 30px;
+                
     
                 h2{
                     color: #18191F;
