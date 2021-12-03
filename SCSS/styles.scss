@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "creato-display-regular";
+    src: url("../assets/tipografias/CreatoDisplay-Regular.otf"); }
+  
+  @font-face {
+    font-family: "creato-display-bold";
+    src: url("../assets/tipografias/CreatoDisplay-Bold.otf"); }
+
+    @font-face {
+        font-family: "bunya-regular-personal";
+        src: url("../assets/tipografias/Bunya-Regular_PERSONAL.ttf"); }
+      
+      @font-face {
+        font-family: "bunya-bold-personal";
+        src: url("../assets/tipografias/Bunya-Bold_PERSONAL.ttf"); }
+
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+          scroll-behavior: smooth;
+          text-decoration: none;
+          list-style: none;
+      }
+
+
+@import "mauri.scss";
+@import "nav.scss";
+@import "animaciones.scss";
+@import "blog.scss";
+@import "footer.scss";
+@import "testimonios.scss";
+@import "mediaQuery.scss";

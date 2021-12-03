@@ -1,0 +1,63 @@
+#contenedorHeader{
+    margin: 10px;
+
+    #logoNav{
+        width: 150px;
+        height: 80px;
+
+        @media (max-width: 700px){
+            width: 75px;
+            height: 40px;
+        }
+    }
+
+    #navbarSupportedContent{
+        position: absolute;
+        right: 0px;
+
+        @media (max-width: 991px){
+            position: relative;
+        }
+    }
+
+    #listaMenu{
+
+        @media (max-width: 991px){
+            background-color: rgba(0,0,0,0.1);
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        li{
+            font-family: "creato-display-regular" !important;
+            font-weight: 400;
+            font-size: 1rem;
+            color: black !important;
+            margin: 0px 30px;
+
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        #planesNav{
+            border: solid 1px black;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: black !important;
+                color: white !important;   
+            }
+
+            @media (max-width: 991px){
+                width: fit-content;
+                padding: 3px 10px;
+            }
+        }
+    }
+
+    #btnBurguerClose{
+        display: none;
+    }
+}

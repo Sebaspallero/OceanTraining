@@ -1,0 +1,87 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #032B3A;
+
+    .footer__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: 2em;
+
+        .logo__footer{
+            height: 60px;
+            width: 107px;
+        }
+        
+        .footer__numero{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            margin: 1em 0em;
+        }
+
+        .disclaimer{
+            font-family: 'creato-display-regular';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #D9DBE1;
+        }
+    }
+
+    
+.footer__right{
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+}
+
+.footer__icons__box{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 2em 0em;
+}
+
+
+.icon__bck{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    background: #083e52;
+    border-radius: 50%;
+}
+
+.footer__icons{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.text__footer{
+    font-family: 'creato-display-regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D9DBE1;
+}
+}
+
+
+
+
+
+
+
+

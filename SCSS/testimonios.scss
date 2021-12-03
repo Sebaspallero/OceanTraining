@@ -1,0 +1,150 @@
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/BG-4.svg);
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: cover;
+
+    @media (min-width: 1500px){
+    min-height: 940px;
+    }
+}
+
+.testimonios__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 2em; }
+
+
+.testimonio__flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio__mobile{
+    display: none;
+}
+
+.speech-bubble {
+	position: relative;
+	background: white;
+	border-radius: 10px;
+    width: 350px;
+	height: 190px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+
+.icons__testimonio__box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin: 1em;
+}
+
+.icon__testimonio{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #2EC5CE;
+}
+
+.icon__testimonio__active{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid #2EC5CE;
+    box-sizing: border-box;
+    
+}
+
+.section__title__w{
+    font-family:'creato-display-bold';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5em;
+}
+
+.section__subtitle{
+    font-family: 'creato-display-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.testimonio__title{
+    font-family: 'creato-display-bold';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #18191F;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    margin: 0px;
+
+}
+
+.testimoio__info{
+    font-family: 'creato-display-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #18191F;
+    margin: 0px 40px;
+}
+
+.usuario__testimonio{
+    font-family: 'creato-display-bold';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.localidad__testimonio{
+    font-family: 'creato-display-regular';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.img__portada{
+    margin-top: 2.5em;
+}
