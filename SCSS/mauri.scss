@@ -483,7 +483,7 @@ $azulMarino: #0C6E9A;
             
             .planesCards{
                 width: 500px;
-                height: 600px;
+                height: 650px;
                 -webkit-filter: drop-shadow(0px 30px 40px rgba(212, 217, 232, 0.7));
                 filter: drop-shadow(0px 30px 40px rgba(212, 217, 232, 0.7));
                 border-radius: 8px;
@@ -529,6 +529,14 @@ $azulMarino: #0C6E9A;
                     }
                 }
 
+                .linkPago{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin: 1em;
+                }
+
                 a{
                     text-decoration: none;
                     text-align: center;
@@ -541,9 +549,6 @@ $azulMarino: #0C6E9A;
                     margin: 15px 0px;
                     border: solid 1px $amarillo;
                     border-radius: 6px;
-                    position: absolute;
-                    bottom: 5px;
-                    right: 5px;
 
                     @media (max-width: 662px) {
                         font-size: 0.8rem;

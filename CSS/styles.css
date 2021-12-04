@@ -388,7 +388,7 @@
           margin: 20px; } }
       #bodyPlanes #planes #contenedorPlanesCards .planesCards {
         width: 500px;
-        height: 600px;
+        height: 650px;
         -webkit-filter: drop-shadow(0px 30px 40px rgba(212, 217, 232, 0.7));
         filter: drop-shadow(0px 30px 40px rgba(212, 217, 232, 0.7));
         border-radius: 8px;
@@ -424,6 +424,12 @@
               font-size: 0.7rem;
               line-height: 24px;
               margin: 20px; } }
+        #bodyPlanes #planes #contenedorPlanesCards .planesCards .linkPago {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          margin: 1em; }
         #bodyPlanes #planes #contenedorPlanesCards .planesCards a {
           text-decoration: none;
           text-align: center;
@@ -435,11 +441,7 @@
           padding: 12px 32px;
           margin: 15px 0px;
           border: solid 1px #FCC658;
-          border-radius: 6px;
-          position: absolute;
-          bottom: 5px;
-          right: 5px;
-          z-index: 2; }
+          border-radius: 6px; }
           @media (max-width: 662px) {
             #bodyPlanes #planes #contenedorPlanesCards .planesCards a {
               font-size: 0.8rem;
@@ -450,29 +452,29 @@
             height: 660px;
             margin: 10px; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan1 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan1.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan1.jpeg");
         background-repeat: no-repeat;
         background-size: cover; }
       #bodyPlanes #planes #contenedorPlanesCards #plan2 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan2.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan2.jpeg");
         background-repeat: no-repeat;
         background-size: cover; }
       #bodyPlanes #planes #contenedorPlanesCards #plan3 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan3.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan3.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
       #bodyPlanes #planes #contenedorPlanesCards #plan4 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan4.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan4.jpeg");
         background-repeat: no-repeat;
         background-size: cover; }
       #bodyPlanes #planes #contenedorPlanesCards #plan5 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan5.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan5.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
       #bodyPlanes #planes #contenedorPlanesCards #plan6 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan6.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan6.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
@@ -488,12 +490,12 @@
           #bodyPlanes #planes #contenedorPlanesCards #plan7 {
             background-position-x: left; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan8 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan8.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan8.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
       #bodyPlanes #planes #contenedorPlanesCards #plan9 {
-        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan9.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan9.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
