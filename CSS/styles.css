@@ -207,14 +207,7 @@
       #disciplinas #contenedorDisciplinas .flipping-container .card {
         width: 100%;
         height: 100%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: transform 1s;
-        -webkit-transform-style: preserve-3d;
-        -webkit-transition: transform 1s; }
-        #disciplinas #contenedorDisciplinas .flipping-container .card .cardFront, #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack {
-          -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
+        position: relative; }
         #disciplinas #contenedorDisciplinas .flipping-container .card .cardFront {
           width: 100%;
           height: 100%;
@@ -241,7 +234,7 @@
             font-size: 0.8rem;
             line-height: 26px;
             color: #18191F;
-            margin: 12px 20px; }
+            margin: 12px 15px; }
           #disciplinas #contenedorDisciplinas .flipping-container .card .cardFront a {
             text-decoration: none;
             color: #0C6E9A;
@@ -251,7 +244,7 @@
             position: absolute;
             left: 0px;
             bottom: 4px; }
-        #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack {
+        #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack1 {
           width: 100%;
           height: 100%;
           background: #FFFFFF;
@@ -261,14 +254,13 @@
           display: flex;
           flex-direction: column;
           position: absolute;
-          transform: rotateY(180deg);
-          -webkit-transform: rotateY(180deg); }
-          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack i {
+          display: none; }
+          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack1 i {
             width: 30px;
             margin: 0px;
             margin-left: 90%;
             cursor: pointer; }
-          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack p {
+          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack1 p {
             font-family: "creato-display-regular";
             font-style: italic;
             text-align: center;
@@ -276,10 +268,68 @@
             margin: 0px 10px;
             color: #0C6E9A; }
             @media (min-width: 430px) and (max-width: 500px) {
-              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack p {
+              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack1 p {
                 font-size: 1.2rem; } }
             @media (max-width: 429px) {
-              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack p {
+              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack1 p {
+                font-size: 1rem; } }
+        #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack2 {
+          width: 100%;
+          height: 100%;
+          background: #FFFFFF;
+          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+          border-radius: 8px;
+          margin: 10px 0px;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          display: none; }
+          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack2 i {
+            width: 30px;
+            margin: 0px;
+            margin-left: 90%;
+            cursor: pointer; }
+          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack2 p {
+            font-family: "creato-display-regular";
+            font-style: italic;
+            text-align: center;
+            font-size: 1.1rem;
+            margin: 0px 10px;
+            color: #0C6E9A; }
+            @media (min-width: 430px) and (max-width: 500px) {
+              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack2 p {
+                font-size: 1.2rem; } }
+            @media (max-width: 429px) {
+              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack2 p {
+                font-size: 1rem; } }
+        #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack3 {
+          width: 100%;
+          height: 100%;
+          background: #FFFFFF;
+          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+          border-radius: 8px;
+          margin: 10px 0px;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          display: none; }
+          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack3 i {
+            width: 30px;
+            margin: 0px;
+            margin-left: 90%;
+            cursor: pointer; }
+          #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack3 p {
+            font-family: "creato-display-regular";
+            font-style: italic;
+            text-align: center;
+            font-size: 1.1rem;
+            margin: 0px 10px;
+            color: #0C6E9A; }
+            @media (min-width: 430px) and (max-width: 500px) {
+              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack3 p {
+                font-size: 1.2rem; } }
+            @media (max-width: 429px) {
+              #disciplinas #contenedorDisciplinas .flipping-container .card .cardBack3 p {
                 font-size: 1rem; } }
   #disciplinas .textoInternoNosotrosWhite {
     font-family: "creato-display-regular";
@@ -327,10 +377,7 @@
       @media (max-width: 699px) {
         #bodyPlanes #planes h1 {
           font-size: 2rem;
-          margin-top: 100px; } }
-      @media (min-width: 1500px) {
-        #bodyPlanes #planes h1 {
-          margin-top: 8.5em; } }
+          margin-top: 50px; } }
     #bodyPlanes #planes #contenedorPlanesCards {
       display: flex;
       flex-flow: row wrap;
@@ -347,7 +394,7 @@
         border-radius: 8px;
         margin: 30px; }
         #bodyPlanes #planes #contenedorPlanesCards .planesCards h2 {
-          color: #18191F;
+          color: white;
           font-size: 2rem;
           font-weight: bold;
           font-family: "creato-display-regular";
@@ -357,7 +404,7 @@
               font-size: 1.5rem;
               margin: 20px; } }
         #bodyPlanes #planes #contenedorPlanesCards .planesCards h3 {
-          color: #18191F;
+          color: white;
           font-size: 1.2rem;
           font-weight: bold;
           font-family: "creato-display-regular";
@@ -366,7 +413,7 @@
             #bodyPlanes #planes #contenedorPlanesCards .planesCards h3 {
               margin: 20px; } }
         #bodyPlanes #planes #contenedorPlanesCards .planesCards p {
-          color: #18191F;
+          color: white;
           font-size: 0.8rem;
           font-weight: normal;
           font-family: "creato-display-regular";
@@ -397,325 +444,59 @@
             #bodyPlanes #planes #contenedorPlanesCards .planesCards a {
               font-size: 0.8rem;
               padding: 8px 24px; } }
-        #bodyPlanes #planes #contenedorPlanesCards .planesCards:hover > h2 > p {
-          display: none; }
         @media (max-width: 662px) {
           #bodyPlanes #planes #contenedorPlanesCards .planesCards {
             width: 100%;
-            height: 650px;
+            height: 660px;
             margin: 10px; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan1 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan1.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan1.jpeg");
         background-repeat: no-repeat;
         background-size: cover; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 h2, #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 h3, #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan1 #contenidoOcultoPlan1 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan1:hover #contenidoOcultoPlan1 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan1.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
       #bodyPlanes #planes #contenedorPlanesCards #plan2 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan2.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan2.jpeg");
         background-repeat: no-repeat;
         background-size: cover; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 h2, #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 h3, #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan2 #contenidoOcultoPlan2 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan2:hover #contenidoOcultoPlan2 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan2.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
       #bodyPlanes #planes #contenedorPlanesCards #plan3 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan3.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan3.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 h2, #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 h3, #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan3 #contenidoOcultoPlan3 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan3:hover #contenidoOcultoPlan3 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan3.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position-x: center;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
       #bodyPlanes #planes #contenedorPlanesCards #plan4 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan4.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan4.jpeg");
         background-repeat: no-repeat;
         background-size: cover; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 h2, #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 h3, #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan4 #contenidoOcultoPlan4 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan4:hover #contenidoOcultoPlan4 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan4.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
       #bodyPlanes #planes #contenedorPlanesCards #plan5 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan5.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan5.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 h2, #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 h3, #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan5 #contenidoOcultoPlan5 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan5:hover #contenidoOcultoPlan5 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan5.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position-x: center;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
       #bodyPlanes #planes #contenedorPlanesCards #plan6 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan6.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan6.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
         @media (max-width: 662px) {
           #bodyPlanes #planes #contenedorPlanesCards #plan6 {
             background-position-x: left; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 h2, #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 h3, #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan6 #contenidoOcultoPlan6 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan6:hover #contenidoOcultoPlan6 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan6.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position-x: center;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan6:hover #contenidoOcultoPlan6 {
-              background-position-x: left; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan7 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan7.jpg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan7.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
         @media (max-width: 662px) {
           #bodyPlanes #planes #contenedorPlanesCards #plan7 {
             background-position-x: left; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 h2, #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 h3, #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan7 #contenidoOcultoPlan7 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan7:hover #contenidoOcultoPlan7 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan7.jpg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position-x: center;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan7:hover #contenidoOcultoPlan7 {
-              background-position-x: left; } }
       #bodyPlanes #planes #contenedorPlanesCards #plan8 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan8.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan8.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 h2, #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 h3, #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan8 #contenidoOcultoPlan8 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan8:hover #contenidoOcultoPlan8 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan8.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position-x: center;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
       #bodyPlanes #planes #contenedorPlanesCards #plan9 {
-        background: linear-gradient(180deg, #FFFFFF 2.25%, rgba(255, 255, 255, 0) 50%), url("../assets/imagenes/plan9.jpeg");
+        background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/Imagenes/plan9.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center; }
-        #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 {
-          display: none;
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 500px;
-          height: 600px;
-          border-radius: 8px; }
-          #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 h2, #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 h3, #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 p {
-            color: white; }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 h2 {
-              font-size: 1.5rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 p {
-              font-size: 0.7rem; } }
-          @media (max-width: 662px) {
-            #bodyPlanes #planes #contenedorPlanesCards #plan9 #contenidoOcultoPlan9 {
-              width: 100%;
-              height: 650px; } }
-        #bodyPlanes #planes #contenedorPlanesCards #plan9:hover #contenidoOcultoPlan9 {
-          background: linear-gradient(180deg, #0C6E9A 2.25%, rgba(12, 110, 154, 0.74) 50%), url("../assets/imagenes/plan9.jpeg");
-          box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.7);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position-x: center;
-          display: block;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
 
 #contenedorHeader {
   margin: 10px; }

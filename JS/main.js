@@ -60,14 +60,36 @@ $(".subtitle__modal").click(function(){
 
 
 //Click de botones VER MAS y CARD CLOSE
-let botonesVerMas = document.getElementsByClassName("cardVerMas")
 
-for (const boton of botonesVerMas) {
-    boton.addEventListener("click", () => {
-        document.getElementById("card"+boton.id).style.transform = "rotateY(180deg)"
-        document.getElementById("cardClose"+boton.id).addEventListener("click", () => document.getElementById("card"+boton.id).style.transform = "rotateY(0deg)")
-    })
-}
+let card1 = $(".cardBack1")
+$("#1").click(function(){
+    card1.show(1000);
+});
+
+$("#cardClose1").click(function(){
+    card1.hide(1000);
+});
+//---------------------------------------
+
+let card2 = $(".cardBack2")
+$("#2").click(function(){
+    card2.show(1000);
+});
+
+$("#cardClose2").click(function(){
+    card2.hide(1000);
+});
+//----------------------------------------
+
+let card3 = $(".cardBack3")
+$("#3").click(function(){
+    card3.show(1000);
+});
+
+$("#cardClose3").click(function(){
+    card3.hide(1000);
+});
+
 
 //Click para cerrar menu hamburguesa
 let btnBurguerOpen = document.getElementById("btnBurguerOpen")
